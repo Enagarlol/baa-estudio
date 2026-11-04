@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Briseyda Aguilar · Diseñadora de Imagen en Tapachula</title>
+  <meta name="description" content="Extensiones de pestañas, cejas, faciales, uñas, alisados y maquillaje en Tapachula, Chiapas. Agenda tu cita con Briseyda Aguilar, diseñadora de imagen.">
+  <meta name="theme-color" content="#FAF6F0">
+  <meta property="og:title" content="Briseyda Aguilar · Diseñadora de Imagen">
+  <meta property="og:description" content="Pestañas, cejas, faciales, uñas, alisados y maquillaje en Tapachula. Agenda tu cita.">
+  <meta property="og:image" content="img/galeria/portada.jpg">
+  <link rel="icon" href="img/marca/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<header class="barra" id="barra">
+  <a href="#inicio" class="barra__marca" aria-label="Inicio">
+    <img src="img/marca/monograma.svg" alt="" width="44" height="44">
+    <span>Briseyda Aguilar</span>
+  </a>
+  <nav class="barra__nav" id="menu">
+    <a href="#servicios">Servicios</a>
+    <a href="#trabajos">Trabajos</a>
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#reglas">Antes de tu cita</a>
+    <a href="#visitanos">Visítanos</a>
+  </nav>
+  <a href="#agendar" class="boton boton--chico">Agendar</a>
+  <button class="barra__menu" id="abrirMenu" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span></button>
+</header>
+
+<main>
+  <!-- INICIO -->
+  <section class="hero" id="inicio">
+    <div class="hero__texto">
+      <img class="hero__logo" src="img/marca/logo.svg" alt="Briseyda Aguilar, Diseñadora de Imagen">
+      <h1>Tu belleza,<br><em>nuestra prioridad</em></h1>
+      <p>Pestañas, cejas, faciales, uñas, alisados y maquillaje en un estudio pensado para que vivas un momento solo para ti.</p>
+      <div class="hero__acciones">
+        <a href="#agendar" class="boton">Agenda tu cita</a>
+        <a href="#servicios" class="boton boton--linea">Ver servicios y precios</a>
+      </div>
+      <ul class="hero__datos">
+        <li><strong>Lun – Sáb</strong> 9:30 am – 8:00 pm</li>
+        <li><strong>Tapachula</strong> Chiapas</li>
+      </ul>
+    </div>
+    <figure class="hero__foto">
+      <img src="img/galeria/portada.jpg" alt="Briseyda Aguilar con brochas de maquillaje" width="800" height="1200" fetchpriority="high">
+    </figure>
+  </section>
+
+  <!-- VALORES -->
+  <section class="valores" aria-label="Por qué elegirnos">
+    <div><span class="icono">✦</span><h3>Atención personalizada</h3><p>Una clienta a la vez, sin prisas.</p></div>
+    <div><span class="icono">♡</span><h3>Productos de alta calidad</h3><p>Materiales profesionales y seguros.</p></div>
+    <div><span class="icono">❀</span><h3>Garantía y retoques</h3><p>3 días de garantía en tu servicio.</p></div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="seccion" id="servicios">
+    <header class="seccion__titulo">
+      <p class="sobretitulo">Lista de precios</p>
+      <h2>Servicios</h2>
+    </header>
+    <div class="pestanas" role="tablist" id="categorias"></div>
+    <div class="servicios" id="listaServicios" role="tabpanel"></div>
+    <p class="nota">Precios en pesos mexicanos. Los servicios marcados como <em>cotizar</em> dependen del diseño, largo o técnica.</p>
+  </section>
+
+  <!-- TRABAJOS -->
+  <section class="seccion seccion--lino" id="trabajos">
+    <header class="seccion__titulo">
+      <p class="sobretitulo">Catálogo</p>
+      <h2>Trabajos reales</h2>
+      <p>Toca una foto para conocer la técnica.</p>
+    </header>
+    <div class="filtros" id="filtrosGaleria"></div>
+    <div class="galeria" id="galeria"></div>
+  </section>
+
+  <!-- SOBRE MÍ -->
+  <section class="seccion sobre" id="sobre-mi">
+    <figure class="sobre__foto">
+      <img src="img/briseyda.jpg" alt="Briseyda maquillando a una clienta en su estudio" loading="lazy" width="864" height="1296">
+    </figure>
+    <div class="sobre__texto">
+      <p class="sobretitulo">Sobre mí</p>
+      <h2>Hola, soy <em>Briseyda</em></h2>
+      <p>Soy diseñadora de imagen en Tapachula. Me especializo en extensiones de pestañas, diseño de cejas y maquillaje para toda ocasión: social, XV años, bodas y artístico.</p>
+      <p>En mi estudio cuidamos tu belleza y también tu tiempo: cada cita está pensada para que salgas sintiéndote tú, pero en tu mejor versión.</p>
+      <ul class="sobre__lista">
+        <li>Maquillaje social, XV años, novias y artístico</li>
+        <li>Técnicas de pestañas: clásicas, híbridas, volumen, wispy y más</li>
+        <li>Cuidados explicados al terminar cada servicio</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- REGLAS -->
+  <section class="seccion seccion--oscura" id="reglas">
+    <header class="seccion__titulo">
+      <p class="sobretitulo">Reglas de mi estudio</p>
+      <h2>Antes de tu cita</h2>
+      <p>Donde cuidamos tu belleza y también tu tiempo.</p>
+    </header>
+    <ol class="reglas">
+      <li><h3>Anticipo del 50%</h3><p>Aparta tu lugar con anticipo. Sin anticipo, no hay cita.</p></li>
+      <li><h3>10 minutos de tolerancia</h3><p>Después tu cita se recorre o se cancela, y el anticipo se pierde. Tu tiempo y el de otras clientas vale oro.</p></li>
+      <li><h3>Cancela con 24 h</h3><p>Así puedo darle el lugar a alguien más. Si no, el anticipo no se reembolsa.</p></li>
+      <li><h3>Ven sin acompañantes</h3><p>Para que estés cómoda y pueda concentrarme en dejarte preciosa.</p></li>
+      <li><h3>Llega lista</h3><p>Sin maquillaje en ojos si es para pestañas, y sin esmalte viejo si es para uñas.</p></li>
+    </ol>
+    <div class="cuidados">
+      <h3>Cuidados y resultados</h3>
+      <ul>
+        <li>Retoques cada 15 días; por cada semana extra se cobran $100.</li>
+        <li>3 días de garantía: si se te caen en ese tiempo, agenda tu cita.</li>
+        <li>Si eres alérgica o tienes alguna condición, avísame antes. Tu seguridad es primero.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- AGENDAR -->
+  <section class="seccion agendar" id="agendar">
+    <div class="agendar__texto">
+      <p class="sobretitulo">Agenda tu cita</p>
+      <h2>Escríbeme por <em>WhatsApp</em></h2>
+      <p>Elige tu servicio y el día que prefieres. Se abrirá WhatsApp con tu mensaje listo para enviar y te confirmo disponibilidad y anticipo.</p>
+      <a class="agendar__tel" href="tel:+529622482940">962 248 2940</a>
+    </div>
+    <form class="formulario" id="formCita">
+      <label>Tu nombre<input name="nombre" required autocomplete="given-name"></label>
+      <label>Servicio<select name="servicio" id="selServicio" required></select></label>
+      <div class="formulario__fila">
+        <label>Día<input type="date" name="fecha" id="fechaCita" required></label>
+        <label>Horario<select name="horario">
+          <option>Mañana (9:30 – 12:00)</option>
+          <option>Mediodía (12:00 – 3:00)</option>
+          <option>Tarde (3:00 – 6:00)</option>
+          <option>Noche (6:00 – 8:00)</option>
+        </select></label>
+      </div>
+      <label>Comentarios <small>(opcional)</small><textarea name="nota" rows="2" placeholder="Alergias, diseño que te gusta, etc."></textarea></label>
+      <button class="boton boton--ancho" type="submit">Enviar por WhatsApp</button>
+    </form>
+  </section>
+
+  <!-- VISÍTANOS -->
+  <section class="seccion seccion--lino visitanos" id="visitanos">
+    <div class="visitanos__info">
+      <p class="sobretitulo">Visítanos</p>
+      <h2>BAA <em>Estudio de Imagen</em></h2>
+      <dl>
+        <dt>Horario</dt><dd>Lunes a sábado<br>9:30 am – 8:00 pm</dd>
+        <dt>Ubicación</dt><dd>Tapachula, Chiapas</dd>
+        <dt>Citas</dt><dd><a href="tel:+529622482940">962 248 2940</a></dd>
+      </dl>
+      <div class="redes">
+        <a class="boton boton--linea" href="https://maps.app.goo.gl/91JQPh7YBasGrjxv5" target="_blank" rel="noopener">Cómo llegar</a>
+        <a class="boton boton--linea" href="https://www.facebook.com/share/19z7dEhxvs/" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </div>
+    <div class="visitanos__mapa">
+      <iframe title="Mapa del estudio" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://maps.google.com/maps?q=14.8916603,-92.273035&z=18&output=embed"></iframe>
+    </div>
+  </section>
+</main>
+
+<footer class="pie">
+  <img src="img/marca/logo-claro.svg" alt="Briseyda Aguilar, Diseñadora de Imagen" width="220">
+  <p>© <span id="anio"></span> BAA Estudio de Imagen · Tapachula, Chiapas</p>
+</footer>
+
+<a class="flotante" id="waFlotante" href="https://wa.me/529622482940" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+  <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.6c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6Zm5.8-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.2 1.3 3.4c.2.2 2.3 3.5 5.6 4.9 2.1.9 2.9 1 4 .8.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.2-.6-.4Z"/></svg>
+</a>
+
+<dialog class="visor" id="visor">
+  <button class="visor__cerrar" id="cerrarVisor" aria-label="Cerrar">×</button>
+  <img id="visorImg" alt="">
+  <div class="visor__texto">
+    <p class="sobretitulo" id="visorCat"></p>
+    <h3 id="visorTitulo"></h3>
+    <p id="visorDesc"></p>
+    <p class="visor__precio" id="visorPrecio"></p>
+    <a class="boton" id="visorAgendar" href="#agendar">Quiero este</a>
+  </div>
+</dialog>
+
+<script src="js/datos.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
