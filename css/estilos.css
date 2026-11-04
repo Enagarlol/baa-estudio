@@ -90,8 +90,6 @@ em { font-style: italic; color: var(--oro); }
 }
 .hero__foto img { position: relative; border-radius: 240px 240px var(--radio) var(--radio);
   aspect-ratio: 4/5; object-fit: cover; object-position: top; width: 100%; max-height: calc(100vh - 140px); }
-.hero__foto figcaption { position: absolute; left: 1rem; bottom: .7rem; white-space: nowrap; font-size: .65rem; letter-spacing: .08em; color: rgba(30, 26, 23, .55); }
-
 /* ===== Valores ===== */
 .valores {
   display: grid; grid-template-columns: repeat(3, 1fr);
